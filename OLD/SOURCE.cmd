@@ -12,15 +12,6 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
   set "DEL=%%a"
 )
 
-:Logo
-cls
-echo %esc%[38;5;34m
-type data\logo.txt
-echo.
-echo Works In Progges
-echo.
-timeout 3 > NUL
-
 :64BitsVariable
 set IS_X64=0 && if "%PROCESSOR_ARCHITECTURE%"=="AMD64" (set IS_X64=1) else (if "%PROCESSOR_ARCHITEW6432%"=="AMD64" (set IS_X64=1))
 
@@ -97,7 +88,7 @@ echo                        Settings
 echo %esc%[38;5;154m
 echo            [ 1 ] Version Info
 echo %esc%[38;5;11m
-echo            [ 2 ] Check Windows Bit Version
+echo            [ 2 ] Check App Bit Version
 echo %esc%[38;5;9m
 echo            [ - ] Go Back
 echo %esc%[38;5;57m
@@ -115,7 +106,7 @@ echo            __________________________________________________
 echo %esc%[38;5;154m
 echo                            Program: %esc%[38;5;9m %name% && echo %esc%[38;5;154m
 echo                            Version: %esc%[38;5;9m %version%
-echo %esc%[38;5;154m                            Author: %esc%[38;5;46m AnakamaTheHedgehog && echo %esc%[38;5;57m
+echo %esc%[38;5;154m                            Author: %esc%[38;5;46m Anakama && echo %esc%[38;5;57m
 echo            __________________________________________________
 echo %esc%[38;5;15m
 pause
