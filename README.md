@@ -1,3 +1,5 @@
+README.md (OLD)
+***
 # Minecraft Batch Tool
 You hate teaching that one friend what to do every time you wanna play a modded server or just for them to download optimization mods? Well this program will be pretty useful for you, just send them this and... tell them to install Fabric.
 
