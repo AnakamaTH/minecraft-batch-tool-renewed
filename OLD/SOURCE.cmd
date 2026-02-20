@@ -115,7 +115,7 @@ goto:Settings
 :BitVersion
 cls
 echo %esc%[38;5;9m
-echo Searching for Windows Bit Version...
+echo Searching for App Bit Version...
 echo.
 echo %esc%[38;5;154m
 if "%IS_X64%"=="1" echo Your System is 64 Bits (x64)
