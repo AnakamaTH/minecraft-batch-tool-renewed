@@ -1,5 +1,3 @@
-:: MADE BY ANAKAMA.XYZ && CREDIT IF USED
-
 @echo off  && echo Please wait...
 @for /f %%a in ('echo prompt $E^| cmd') do set "esc=%%a" && @set version=1.1 && @set name=Minecraft_Batch_Tool
 title %name% %version% by Anakama
